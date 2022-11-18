@@ -30,11 +30,11 @@ st.radio(
 st.session_state.visibility
 
 #Scatter plot 
-x1 = [1,2,3,4,5]
-x2 = [10,22,13,34,25]
+line = [1,2,3,4,5]
+waitTime = [10,22,13,34,25]
 y= [100,200,50,60,80]
 fig = plt.figure()
-plt.scatter(x1, x2,
+plt.scatter(line, waitTime,
         c=y, alpha=0.8,
         cmap='viridis')
 
